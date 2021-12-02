@@ -36,6 +36,8 @@ def find_increases(depths):
             increases += 1
     return increases
 
+# Part 2
+
 
 def find_sum_measurements_increases(depths):
     increases = 0

@@ -50,6 +50,8 @@ Go through the list of depths and check if the depth before was lower than curre
 
 **My puzzle answer was 1215.**
 
+----
+
 ## Part 2
 
 ### Task
