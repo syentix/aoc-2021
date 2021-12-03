@@ -6,8 +6,9 @@ I will be doing solutions in python.
 
 | Day | Title | Part 1 | Part 2 |
 |---|---|---|---|
-| 1 | Sonar Sweep | + | + |
-| 2 | Dive! | + | + |
+| 1 | Sonar Sweep | ★ | ★ |
+| 2 | Dive! | ★ | ★ |
+| 3 | Binary Diagnostic | ★ | ★ |
 
 ----
 
