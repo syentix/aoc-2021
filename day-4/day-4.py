@@ -1,18 +1,9 @@
 import copy
-import functools
+
 # Read File
 
 
 def read_file(filename):
-    """
-    Reads in Test File line by line and adds to list
-
-    Args:
-        filename (string): Filename/Filepath
-
-    Returns:
-        list{list}: List of commands represented by dictionaries
-    """
     pulled_nums = None
     boards = []
     with open(filename, 'r') as f:

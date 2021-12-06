@@ -10,7 +10,7 @@ I will be doing solutions in python.
 | 2 | Dive! | ★ | ★ |
 | 3 | Binary Diagnostic | ★ | ★ |
 | 4 | Giant Squid | ★ | ★ |
-| 5 | Hydrothermal Venture | - | - |
+| 5 | Hydrothermal Venture | ★ | - |
 | 6 | Lanternfish | - | - |
 
 ----
