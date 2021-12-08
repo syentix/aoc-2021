@@ -12,6 +12,8 @@ I will be doing solutions in python.
 | 4 | Giant Squid | ★ | ★ |
 | 5 | Hydrothermal Venture | ★ | - |
 | 6 | Lanternfish | - | - |
+| 7 | The Treachery of Whales | - | - |
+| 8 | Seven Segment Search | - | - |
 
 ----
 
