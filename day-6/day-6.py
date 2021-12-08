@@ -8,28 +8,34 @@ def read_file(filename):
         filename (string): Filename/Filepath
 
     Returns:
-        list{list}: List of commands represented by dictionaries
+        list{list}: List of lanternfish
     """
-    lines = []
     with open(filename, 'r') as f:
-        for line in f:
-            stripped = line.strip()
-            points = stripped.split(' -> ')
-            [a, b] = points[0].split(',')
-            [x, y] = points[1].split(',')
-            point1 = Point(int(a), int(b))
-            point2 = Point(int(x), int(y))
-            lines.append(Line(point1, point2))
-    return lines
+        line = f.readline()
+        return [int(x) for x in line.split(',')]
 
 # Part 1
 
 
+def simulate_lanternfish_growth(lanternfish, days):
+    for _ in range(1, days+1):
+        for i, x in enumerate(lanternfish):
+            if x == 0:
+                lanternfish[i] = 6
+                lanternfish.append(9)
+            else:
+                lanternfish[i] -= 1
+    return len(lanternfish)
+
+
 # Part 2
-input_lines = read_file("input.txt")
-test_lines = read_file("test.txt")
-
-#solution_part_1 = count_intersections(input_lines)
+input_lanternfish = read_file("input.txt")
+test_lanternfish = read_file("test.txt")
 
 
-#print(f"Solution (Part 1): {solution_part_1}")
+solution_part_1 = simulate_lanternfish_growth(test_lanternfish, days=80)
+#solution_part_2 = simulate_lanternfish_growth(test_lanternfish, days=256)
+
+
+print(f"Solution (Part 1): {solution_part_1}")
+#print(f"Solution (Part 2): {solution_part_2}")
